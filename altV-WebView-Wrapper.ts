@@ -37,7 +37,7 @@ export function emit(EventName: string, ...Parameters: any[]) {
  */
 export function fireAltEvent(EventName: string, ...args: any): void {
   var storageEntry = onStorage.find((entry) => entry[0] === EventName);
-  if (storageEntry === null) {
+  if (!storageEntry) {
     console.log("Event without subscription:", EventName);
     return;
   }
