@@ -78,8 +78,13 @@ function HasFinished(arg) {
   ReactDOM.render(<App />, document.getElementById("root"));
 }
 ```
+
 Now you can mock client-emits by using the `fireAltEvent`-Function.
+
 ```js
+import React from "react";
+import ReactDOM from "react-dom";
+import { emit, fireAltEvent } from "./altV-WebView-Wrapper";
 document.addEventListener("DOMContentLoaded", HasFinished);
 function HasFinished(arg) {
   ReactDOM.render(<App />, document.getElementById("root"));
