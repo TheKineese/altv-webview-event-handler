@@ -41,15 +41,15 @@ export default SubscribeExample;
 import * as React from "react";
 import * as AltWrapper from "./altV-WebView-Wrapper";
 
-export interface SubscribeExampleProps {}
+export interface EmitExampleProps {}
 
-export interface SubscribeExampleState {}
+export interface EmitExampleState {}
 
-class SubscribeExample extends React.Component<
-  SubscribeExampleProps,
-  SubscribeExampleState
+class EmitExample extends React.Component<
+  EmitExampleProps,
+  EmitExampleState
 > {
-  constructor(props: SubscribeExampleProps) {
+  constructor(props: EmitExampleProps) {
     super(props);
     this.state = {};
   }
@@ -63,7 +63,7 @@ class SubscribeExample extends React.Component<
   }
 }
 
-export default SubscribeExample;
+export default EmitExample;
 
 ```
 
