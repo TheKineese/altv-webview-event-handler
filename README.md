@@ -3,7 +3,9 @@ These functions allows you to handle Alt:V Client events raised in the WebView.
 
 ## Features:
 - Multiple subscriptions to an event.
+- Unsubscribe from event.
 - Mock incoming events for local-tests.
+- Mock server-callback.
 
 ## How to use:
 
