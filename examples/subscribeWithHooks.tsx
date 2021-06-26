@@ -22,5 +22,7 @@ function ExampleWithHooks(props:ExampleWithHooksProps){
     },[])
 
 
-    return <div>...</div>
+    return <div>
+        <AComponentUsingTheProperty property={aStateProperty.current} />
+    </div>
 }
