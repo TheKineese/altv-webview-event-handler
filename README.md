@@ -38,7 +38,7 @@ class SubscribeExample extends React.Component<SubscribeExampleProps, SubscribeE
 export default SubscribeExample;
 ```
 
-### Subscribeto an event (React Hooks)
+### Subscribe to an event (React Hooks)
 
 ```ts
 import * as React from "react";
