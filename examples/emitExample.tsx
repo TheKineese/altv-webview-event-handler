@@ -1,5 +1,5 @@
 import * as React from "react";
-import * as AltWrapper from "./altV-WebView-Wrapper";
+import * as AltWrapper from "../altV-WebView-Wrapper";
 
 export interface EmitExampleProps {}
 
